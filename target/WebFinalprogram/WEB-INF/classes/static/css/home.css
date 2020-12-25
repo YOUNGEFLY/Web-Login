@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #34363E;
+    text-decoration: none;
+}
+.main{
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+    position: absolute;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container{
+    background-color: rgba(50%,50%,50%,0.2);
+    right: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+    position: absolute;
+}
+
+.func{
+    margin-left: 33%;
+    margin-top: 5%;
+    height: 80%;
+    width: 33%;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.NameHead span {
+    display: block;
+    width: 80px;
+    float: left;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 5% 0;
+    border-bottom: 1px solid gray;
+}
+.NameHead span.active{
+    border-bottom: 2px solid #2B6CDB;
+}
+
+
+.btn {
+    position: absolute;
+    width: 33%;
+    margin-top: 25%;
+    margin-left: 4%;
+}
+.btn .success-btn {
+    width: 175px;
+    height: 45px;
+    background: #2368de;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 12px;
+}
+#alter_name {
+    float: left;
+    margin-right: 10%;
+}
+#alter_psw{
+    float: left;
+}
+#logout{
+    float: left;
+    margin: 5% 22%;
+}
+
+#logout, #psw_back_home, #name_back_home{
+    float: left;
+    margin: 5% 22%;
+}
+
+.user_alter div, .name_alter div{
+    position: absolute;
+    margin-left: 4%;
+    height: 8%;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+.name_alert{
+    position: absolute;
+    margin-left: -11%;
+    font-size: 5px;
+    color: red;
+    display: none;
+    margin-top: 8.5%;
+}
+.user_alter span{
+    position: absolute;
+    margin-left: -11%;
+    font-size: 5px;
+    color: red;
+    display: none;
+}
+.new_psw_item{
+
+    margin-top: 7%;
+
+}
+.new_repsw_item{
+
+    margin-top: 12%;
+
+}
+.confirm_phone{
+
+    margin-top: 17%;
+
+}
+.dynamic_code{
+    margin-top: 22%;
+
+}
+
+.new_psw_alert{
+    margin-top: 9%;
+}
+
+.new_repsw_alert{
+    margin-top: 14%;
+}
+
+.confirm_phone_alert{
+    margin-top: 19%;
+}
+
+
+.user_alter div span ,.name_alter div span {
+    position: absolute;
+    margin-top: 8px;
+}
+.user_alter div input,.name_alter div input {
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-left: 48px;
+    margin-top: 15px;
+}
+.send_dynamic_psw{
+    width: 135px;
+    height: 36px;
+    margin-left: 235px;
+    margin-top: -33px;
+    background: #2368DE;
+    border-radius: 4px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    line-height: 39px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    position: absolute;
+}
+.back{
+    position: absolute;
+    margin-left: -32%;
+    width: 5%;
+}
+

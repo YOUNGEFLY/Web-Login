@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #34363E;
+    text-decoration: none;
+}
+.main{
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+    position: absolute;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    z-index: 100;
+}
+
+.slides{
+     position: absolute;
+     float: left;
+     width: 40%;
+     height: 40%;
+     min-width: 614px;
+     min-height: 288px;
+     margin-left: 7%;
+     margin-top: 21%;
+     background-color: lightgray;
+     overflow: hidden;
+ }
+
+.slide-box{
+    width: 600%;
+}
+
+.slides img{
+    width: 19%;
+    height: 100%;
+}
+
+.dot-box{
+    position: absolute;
+    left: 38%;
+    bottom: 2px;
+}
+.dot-box li{
+    display: inline-block;
+    margin: 0 4px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: none;
+    background: darkgray;
+}
+.dot-box .active{
+    background-color: #2c2a2c;
+}
+
+
+.container{
+    background-color: rgba(50%,50%,50%,0.5);
+    right: 0;
+    height: 100%;
+    width: 45%;
+    min-width: 691px;
+    min-height: 722px;
+    position: absolute;
+}
+
+.dba_entry{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 540px;
+    color: #2B6CF2;
+}
+
+.func{
+    margin-left: 17%;
+    margin-top: 15%;
+    height: 68%;
+    width: 65%;
+    min-width: 449px;
+    min-height: 491px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.phone_item{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 15%;
+    height: 8%;
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+.password_item{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 30%;
+    height: 8%;
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+.password_item .dynamic_psw{
+    width: 135px;
+    height: 36px;
+    margin-left: 170px;
+    margin-top: -33px;
+    background: #2368DE;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 39px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    position: absolute;
+}
+.phone_item > span, .password_item > span {
+    position: absolute;
+    margin-top: 8px;
+}
+.phone_item > input, .password_item > input {
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+.tabHead span {
+    display: block;
+    width: 80px;
+    float: left;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 5% 0;
+    border-bottom: 1px solid gray;
+}
+.tabHead span.active{
+    border-bottom: 2px solid #2B6CDB;
+}
+
+.tabHead span.active a{
+    color: #2B6CDB;
+}
+.btn {
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 10%;
+}
+.btn .login-btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    background: #2368de;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 12px;
+}
+.help{
+    position: absolute;
+    margin-top: 58%;
+    margin-left: 5%;
+}
+.help a{
+    margin-left: 18px;
+    margin-right: 160px;
+}
+.footeritem{
+    color: #0c4af9;
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.footer{
+    position: absolute;
+    margin-top: 63%;
+    background-color: #ddebfb;
+    width: 65%;
+    height: 8%;
+}
+.ways{
+    margin-top: 10px;
+}
+.ways a{
+
+}
+
+
+

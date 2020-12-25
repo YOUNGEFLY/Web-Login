@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebFinalprogram:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebFinalprogram</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebFinalprogram.war">
+      <element id="artifact" artifact-name="WebFinalprogram:war exploded" />
+    </root>
+  </artifact>
+</component>

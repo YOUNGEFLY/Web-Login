@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    color: #34363E;
+    text-decoration: none;
+}
+.main{
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+    position: absolute;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container1{
+    background-color: rgba(50%,50%,50%,0.2);
+    right: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1536px;
+    min-height: 722px;
+    position: absolute;
+}
+
+.func{
+    margin-left: 33%;
+    margin-top: 5%;
+    height: 65%;
+    width: 33%;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.container2 .func{
+    position: absolute;
+    width: 90%;
+    height: 88%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.mytable{
+    border: 1px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+td{
+    padding-left: 105px;
+    padding-top: 18px;
+}
+
+.add_btn{
+    margin-top: 5%;
+    margin-left: 38%;
+}
+
+.add_user{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    background: #2368de;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 12px;
+}
+
+.dbaHead span {
+    display: block;
+    width: 80px;
+    float: left;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 5% 0;
+    border-bottom: 1px solid gray;
+}
+.dbaHead span.active{
+    border-bottom: 2px solid #2B6CDB;
+}
+
+.dbaHead span.active a{
+    color: #2B6CDB;
+}
+
+.dba_Login_item div{
+    position: absolute;
+    margin-left: 4%;
+    height: 8%;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+.dba_Login_item >span{
+    position: absolute;
+    margin-left: -11%;
+    font-size: 5px;
+    color: red;
+    display: none;
+}
+.name_item{
+    margin-top: 7%;
+
+}
+
+
+.dba_PSW{
+    margin-top: 15%;
+
+}
+
+
+
+.dba_Login_item div span {
+    position: absolute;
+    margin-top: 8px;
+}
+.dba_Login_item div input {
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+
+.btn {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 7%;
+}
+.btn .dba_login_btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    background: #2368de;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 12px;
+}
+
+.back{
+    position: absolute;
+    margin-left: -32%;
+    width: 5%;
+}
+
+
