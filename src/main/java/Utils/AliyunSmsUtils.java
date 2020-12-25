@@ -25,8 +25,8 @@ public class AliyunSmsUtils {
      * accessKeyId
      * accessKeySecret
      */
-    static final String accessKeyId = "LTAI4GFs7T4XBTrZdonrvnjr";
-    static final String accessKeySecret = "s7R6SuHsc5tifRJnqpL1aHoi2zjZ7c";
+    static final String accessKeyId = "***************************************";
+    static final String accessKeySecret = ""***************************************";";
 
 
     public static SendSmsResponse sendSms(String telephone, String code) throws ClientException {
@@ -130,7 +130,7 @@ public class AliyunSmsUtils {
         String code = Integer.toString(getCode());
         System.out.println("发送的验证码为："+code);
         //发短信
-        SendSmsResponse response =sendSms("18238918278",code);
+        SendSmsResponse response =sendSms("******",code);
         System.out.println("短信接口返回的数据----------------");
         System.out.println("Code=" + response.getCode());
         System.out.println("Message=" + response.getMessage());
